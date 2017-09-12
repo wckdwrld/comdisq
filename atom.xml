@@ -2,15 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://wckdwrld.github.io/comdisq/atom.xml" rel="self"/>
-  <link href="http://wckdwrld.github.io/comdisq/"/>
-  <updated>2017-09-12T13:40:31+10:00</updated>
-  <id>http://wckdwrld.github.io/comdisq/</id>
+  <link href="http://http://wckdwrld.github.io/comdisq/atom.xml" rel="self"/>
+  <link href="http://http://wckdwrld.github.io/comdisq/"/>
+  <updated>2017-09-12T15:22:57+10:00</updated>
+  <id>http://http://wckdwrld.github.io/comdisq/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
   </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
 
   
 </feed>
