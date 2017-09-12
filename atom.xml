@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[COMDISQ BLOG]]></title>
   <link href="http://http://wckdwrld.github.io/comdisq/atom.xml" rel="self"/>
   <link href="http://http://wckdwrld.github.io/comdisq/"/>
-  <updated>2017-09-12T15:22:57+10:00</updated>
+  <updated>2017-09-12T15:37:33+10:00</updated>
   <id>http://http://wckdwrld.github.io/comdisq/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Jack Bennett]]></name>
     
   </author>
 
