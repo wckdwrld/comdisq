@@ -4,7 +4,7 @@
   <title><![CDATA[COMDISQ]]></title>
   <link href="http://http://wckdwrld.github.io/comdisq/atom.xml" rel="self"/>
   <link href="http://http://wckdwrld.github.io/comdisq/"/>
-  <updated>2017-09-13T10:59:31+10:00</updated>
+  <updated>2017-09-13T11:36:26+10:00</updated>
   <id>http://http://wckdwrld.github.io/comdisq/</id>
   <author>
     <name><![CDATA[Jack Bennett]]></name>
@@ -14,13 +14,39 @@
   
   <entry>
     
+    <title type="html"><![CDATA[Project Thoughts: Cellurar-Pi]]></title>
+    <link href="http://wckdwrld.github.io/comdisq/blog/2017/09/13/project-thoughts-cellurar-pi/"/>
+    
+    <updated>2017-09-13T11:39:36+10:00</updated>
+    <id>http://http://wckdwrld.github.io/comdisq/blog/2017/09/13/project-thoughts-cellurar-pi</id>
+    
+      <content type="html"><![CDATA[
+]]></content>
+      
+  </entry>
+  
+  <entry>
+    
+    <title type="html"><![CDATA[Social Media: Cultural Commercialization]]></title>
+    <link href="http://wckdwrld.github.io/comdisq/blog/2017/09/13/social-media-cultural-commercialization/"/>
+    
+    <updated>2017-09-13T11:36:26+10:00</updated>
+    <id>http://http://wckdwrld.github.io/comdisq/blog/2017/09/13/social-media-cultural-commercialization</id>
+    
+      <content type="html"><![CDATA[
+]]></content>
+      
+  </entry>
+  
+  <entry>
+    
     <title type="html"><![CDATA[The General Gist]]></title>
     <link href="http://wckdwrld.github.io/comdisq/blog/2017/09/13/the-general-gist/"/>
     
     <updated>2017-09-13T10:58:12+10:00</updated>
     <id>http://http://wckdwrld.github.io/comdisq/blog/2017/09/13/the-general-gist</id>
     
-      <content type="html"><![CDATA[<p>Not sure how this is all going to work, this is a test post to see if it all runs.</p>
+      <content type="html"><![CDATA[
 ]]></content>
       
   </entry>
