@@ -4,7 +4,7 @@
   <title><![CDATA[COMDISQ]]></title>
   <link href="http://http://wckdwrld.github.io/comdisq/atom.xml" rel="self"/>
   <link href="http://http://wckdwrld.github.io/comdisq/"/>
-  <updated>2017-09-15T09:14:42+10:00</updated>
+  <updated>2017-10-04T13:35:52+11:00</updated>
   <id>http://http://wckdwrld.github.io/comdisq/</id>
   <author>
     <name><![CDATA[Jack Bennett]]></name>
@@ -33,7 +33,17 @@
     <updated>2017-09-13T11:39:36+10:00</updated>
     <id>http://http://wckdwrld.github.io/comdisq/blog/2017/09/13/project-thoughts-cellurar-pi</id>
     
-      <content type="html"><![CDATA[
+      <content type="html"><![CDATA[<h2>Cellular-Pi</h2>
+
+<p>Why use cellular networks as oppose to web content? The reasons traverse accessibility, aesthetic and security; of which I will extrapolate upon in this post. In many ways SMS is conceptually similar to TCP communication, each piece of data is sent in a packet containing a message, a destination and a origin. As such SMS networks can be hijacked to operate in a similar fashion to TCP/IP networks, the plain text of the SMS can be used for server side operations, whether they be executing commands remotely via SMS or aggregation of plain text content across a network.</p>
+
+<p>Initially, I had considered SMS networking as an accessible means of communication. Most pre-paid and post-paid cellular services provide free local text messaging, making it more affordable than data transaction over mobile networks. Many more people understand text messaging and have access to devices capable of SMS; I had wanted the platform to be inclusive of those with even the oldest devices.</p>
+
+<p>From a design perspective, the SMS networking provides restrictions of design that allow for text-based natural language interaction to flourish. Affording the use of language to control the platform is a top priority.</p>
+
+<p>In it’s essence the platform is established to connect users locally, ideally I would prefer that access to the space is not stumbled upon while someone or something is trawling the internet. Access would be restricted by physical location by means of only publishing the contact details in a shared space.</p>
+
+<p>The security here is questionable; SMS networking doesn’t inherit the same online exposure that web platforms do, keeping it safe from malicious robots and worms. This being said I can consider at least a hand full of attack vectors that need to be considered. I have considered ID spoofing, whereby an attacker can spoof a users contact information to send information as that user, this is only one way and information will not be sent back to the attacker. I have also consider DOS attacks, wherein the attacker uses a mobile to constantly call the platform, this way it won’t be able to send or receive information at all.   I will post further as I change my ideas and solve my problems.</p>
 ]]></content>
       
   </entry>
@@ -46,7 +56,10 @@
     <updated>2017-09-13T11:36:26+10:00</updated>
     <id>http://http://wckdwrld.github.io/comdisq/blog/2017/09/13/social-media-cultural-commercialization</id>
     
-      <content type="html"><![CDATA[
+      <content type="html"><![CDATA[<p>The soul of this project is very much born from the idea of repossesion of the digital-social in an attempt to reconnect people in a meaningful and constructive manor.
+This repossession is crucial to the preservation of cultural authenticity, but to understand why we need to look into the alienation and exploitation of social media prosummers.</p>
+
+<p>Marx considered alienation to be the disruption of the relationship between worker and their produce. In a industrial world, this manifest in the breakdown of the production process, whereby workers roles were specialized to the point of complete disconnection from the final product. A worker is responcible for one tiny part of thousands of units, as opposed to being responcible for few complete units; abstracting their involvement in the process. Now, consider the process of social media interaction, whereby users are coerced into regular production of information in attempt to fill a superficial social obligation to update the internet with their lives. Through participating in this process the prosumer alienates themselves from their product, information. This social information is foundational for culture.</p>
 ]]></content>
       
   </entry>
@@ -59,7 +72,7 @@
     <updated>2017-09-13T10:58:12+10:00</updated>
     <id>http://http://wckdwrld.github.io/comdisq/blog/2017/09/13/the-general-gist</id>
     
-      <content type="html"><![CDATA[
+      <content type="html"><![CDATA[<p>I like few of my generation have developed an aversion to the social media structures that the majority of the developed world invest in on a daily basis. I want to reclaim the social for communities to cultivate meaningful</p>
 ]]></content>
       
   </entry>
