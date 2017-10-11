@@ -1,10 +1,18 @@
-import language_proc.py
+from sms import SMServer 
+import sys
 
 class router:
 
     def __init__(self):
         self.groups = []
         self.users  = []
+        server = SMServer("/dev/ttyUSB0")
+        try:
+            server.connect()
+        except:
+            print "SMS Connection Error: " + sys.exc_info()[0]
+            raise
+    
 
 
     def add(contact):
@@ -46,14 +54,20 @@ class router:
         for user in users:
             user.cleanseGroup()
 
-    def message(contact):
-        print("Not Implemented")  
+    def sendMessage(contact, text):
+        server.sendMessage(contact.number, text)
 
-    def broadcast(group):
-        print("Not Implemented")  
+    def getMessage():
+        return server.getMessage()
+
+    def broadcast(group, text):
+        for contact in group:
+            server.sendMessage(contact.number, text)
+
 
     def publicBroadcast():
-        print("Not Implemented")  
+        for contact in self.users:
+            server.sendMessage(contaxt.number, text)
 
 class Group:
 
