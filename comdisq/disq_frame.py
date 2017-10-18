@@ -1,6 +1,5 @@
 import sys
 import os
-from routeing import User
 
 
 class DisqFrame:
@@ -9,6 +8,7 @@ class DisqFrame:
         self.op_code = op_code
         self.context = text
         self.contact = user
+        self.recipient = ''
 
     def getOpCode():
         return self.op_code
@@ -27,4 +27,7 @@ class DisqFrame:
 
     def setContact(user):
         self.contact = user
+    
+    def setRecipient(self, recipient):
+        self.recipient = recipient
 
