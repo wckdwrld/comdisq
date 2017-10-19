@@ -1,5 +1,6 @@
-import routeing.py
-import Queue
+from disqusser import Disqusser
+from threading import Thread
+import os
 
 
 title_art = """/
@@ -10,17 +11,10 @@ title_art = """/
               \____/\____/_/  /_/_____/___//____/\___\_\ 
 """
 
-class Message:
-    def __init__(self, origin, text, timestamp):
-        self.origin = origin
-        self.text = text
-        self.timestamp = timestamp
 
 class Manager:
     def __init__(self):
-        router = Router()
-        messageQueue = Queue(10) 
-        messageHistory = Queue(10)
+        disqusser = Disqusser()
 
     def displayMenu():
         os.system('clear')
@@ -31,14 +25,10 @@ class Manager:
         print("4. Logs " + menuSelect[3]) 
         print("5. Info " + menuSelect[4])
         
-    def messageHandler():
-        while true:
-            if self.messageQueue.len > 0:
-                currentMessage = self.messageQueue.pop
-                router.handle(currentMessage)
-                messageHistory.push(currentMessage)
+    def start():
+        disqusser_thread = Thread(target = self.disqusser.run, args = ())
+        disqusser_thread.start()
+        disqusser_thread.join()
 
-    def messageMonitor():
-        print "Not Yet Implemented"
 
 
