@@ -101,6 +101,14 @@ class Disqusser():
         elif op_code == LFG_OP:
             group = self.constructGroup(member, topic)  
             self.groups.append(group)
+
+        elif op_code == LEAVEGROUP_OP:
+            group = member.getGroup()
+            group.removeMember(member)
+            self.sendMessage("You have been removed from the group", usr_id)
+
+        elif op_code == EXIT_OP:
+            removeMember(member)
             
     def constructGroup(self, leader, topic):
         group = Group(leader, topic)
@@ -121,6 +129,14 @@ class Disqusser():
         member = Member(disq_frame.user, '')
         self.members.add(member)
         self.sendMessage("Thanks for joining", usr_id)
+
+    def removeMember(self, member):
+        group = member.getGroup()
+        usr_id = member.getIdentifier()
+        if group:
+            group.removeMember(usr_id)
+        self.members.remove(member)
+        sendMessage("You have been removed from the system", usr_id)
 
     def findMember(usr_id):
         for member in self.members:
